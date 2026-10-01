@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    serverComponentsExternalPackages: ['isomorphic-dompurify'],
-  },
+  serverExternalPackages: ['isomorphic-dompurify'],
   images: {
     remotePatterns: [
       {
